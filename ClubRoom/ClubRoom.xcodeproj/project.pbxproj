@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0676AA296C7AF4004D1186 /* MainContestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0676A9296C7AF4004D1186 /* MainContestCollectionViewCell.swift */; };
 		BF436310296C535800AA20FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF43630F296C535800AA20FF /* AppDelegate.swift */; };
 		BF436312296C535800AA20FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF436311296C535800AA20FF /* SceneDelegate.swift */; };
 		BF436314296C535800AA20FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF436313296C535800AA20FF /* ViewController.swift */; };
 		BF436317296C535800AA20FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF436315296C535800AA20FF /* Main.storyboard */; };
 		BF436319296C535A00AA20FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF436318296C535A00AA20FF /* Assets.xcassets */; };
 		BF43631C296C535A00AA20FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF43631A296C535A00AA20FF /* LaunchScreen.storyboard */; };
+		BF436324296C6A1900AA20FF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF436323296C6A1900AA20FF /* Model.swift */; };
+		BF436326296C6B3500AA20FF /* MainContestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF436325296C6B3500AA20FF /* MainContestTableViewCell.swift */; };
+		BFDDB808296C7B6F00CEE0A5 /* MainContestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDDB807296C7B6F00CEE0A5 /* MainContestTableViewCell.xib */; };
+		BFDDB80A296C7D2900CEE0A5 /* MainContestCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDDB809296C7D2900CEE0A5 /* MainContestCollectionTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF0676A9296C7AF4004D1186 /* MainContestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContestCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF43630C296C535800AA20FF /* ClubRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF43630F296C535800AA20FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF436311296C535800AA20FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		BF436318296C535A00AA20FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF43631B296C535A00AA20FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF43631D296C535A00AA20FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF436323296C6A1900AA20FF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BF436325296C6B3500AA20FF /* MainContestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContestTableViewCell.swift; sourceTree = "<group>"; };
+		BFDDB807296C7B6F00CEE0A5 /* MainContestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainContestTableViewCell.xib; sourceTree = "<group>"; };
+		BFDDB809296C7D2900CEE0A5 /* MainContestCollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainContestCollectionTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF0676A8296C7713004D1186 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF436323296C6A1900AA20FF /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF0676AB296C7AFB004D1186 /* MainCollectionTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BF0676A9296C7AF4004D1186 /* MainContestCollectionViewCell.swift */,
+				BFDDB809296C7D2900CEE0A5 /* MainContestCollectionTableViewCell.xib */,
+			);
+			path = MainCollectionTableView;
+			sourceTree = "<group>";
+		};
 		BF436303296C535800AA20FF = {
 			isa = PBXGroup;
 			children = (
@@ -63,8 +90,20 @@
 				BF436318296C535A00AA20FF /* Assets.xcassets */,
 				BF43631A296C535A00AA20FF /* LaunchScreen.storyboard */,
 				BF43631D296C535A00AA20FF /* Info.plist */,
+				BF0676A8296C7713004D1186 /* Model */,
+				BF0676AB296C7AFB004D1186 /* MainCollectionTableView */,
+				BF436329296C6C6400AA20FF /* MainTableView */,
 			);
 			path = ClubRoom;
+			sourceTree = "<group>";
+		};
+		BF436329296C6C6400AA20FF /* MainTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BF436325296C6B3500AA20FF /* MainContestTableViewCell.swift */,
+				BFDDB807296C7B6F00CEE0A5 /* MainContestTableViewCell.xib */,
+			);
+			path = MainTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF43631C296C535A00AA20FF /* LaunchScreen.storyboard in Resources */,
+				BFDDB808296C7B6F00CEE0A5 /* MainContestTableViewCell.xib in Resources */,
+				BFDDB80A296C7D2900CEE0A5 /* MainContestCollectionTableViewCell.xib in Resources */,
 				BF436319296C535A00AA20FF /* Assets.xcassets in Resources */,
 				BF436317296C535800AA20FF /* Main.storyboard in Resources */,
 			);
@@ -139,8 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF436314296C535800AA20FF /* ViewController.swift in Sources */,
+				BF0676AA296C7AF4004D1186 /* MainContestCollectionViewCell.swift in Sources */,
 				BF436310296C535800AA20FF /* AppDelegate.swift in Sources */,
 				BF436312296C535800AA20FF /* SceneDelegate.swift in Sources */,
+				BF436326296C6B3500AA20FF /* MainContestTableViewCell.swift in Sources */,
+				BF436324296C6A1900AA20FF /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
