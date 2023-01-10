@@ -16,6 +16,8 @@
 		BF43631C296C535A00AA20FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF43631A296C535A00AA20FF /* LaunchScreen.storyboard */; };
 		BF436324296C6A1900AA20FF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF436323296C6A1900AA20FF /* Model.swift */; };
 		BF436326296C6B3500AA20FF /* MainContestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF436325296C6B3500AA20FF /* MainContestTableViewCell.swift */; };
+		BF7DB82C296DB3FF005D187F /* ContestCheckTeam.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7DB82B296DB3FF005D187F /* ContestCheckTeam.storyboard */; };
+		BF7DB82E296DB474005D187F /* ContestCheckTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7DB82D296DB474005D187F /* ContestCheckTeamViewController.swift */; };
 		BFDDB808296C7B6F00CEE0A5 /* MainContestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDDB807296C7B6F00CEE0A5 /* MainContestTableViewCell.xib */; };
 		BFDDB80A296C7D2900CEE0A5 /* MainContestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDDB809296C7D2900CEE0A5 /* MainContestCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -32,6 +34,8 @@
 		BF43631D296C535A00AA20FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF436323296C6A1900AA20FF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BF436325296C6B3500AA20FF /* MainContestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContestTableViewCell.swift; sourceTree = "<group>"; };
+		BF7DB82B296DB3FF005D187F /* ContestCheckTeam.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContestCheckTeam.storyboard; sourceTree = "<group>"; };
+		BF7DB82D296DB474005D187F /* ContestCheckTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestCheckTeamViewController.swift; sourceTree = "<group>"; };
 		BFDDB807296C7B6F00CEE0A5 /* MainContestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainContestTableViewCell.xib; sourceTree = "<group>"; };
 		BFDDB809296C7D2900CEE0A5 /* MainContestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainContestCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +92,7 @@
 				BF436313296C535800AA20FF /* ViewController.swift */,
 				BF436318296C535A00AA20FF /* Assets.xcassets */,
 				BF43631A296C535A00AA20FF /* LaunchScreen.storyboard */,
+				BF7DB82F296DB480005D187F /* ContestCheckTeam */,
 				BF43631D296C535A00AA20FF /* Info.plist */,
 				BF0676A8296C7713004D1186 /* Model */,
 				BF7DB82A296DB024005D187F /* Main */,
@@ -112,6 +117,15 @@
 				BF0676AB296C7AFB004D1186 /* MainCollectionView */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		BF7DB82F296DB480005D187F /* ContestCheckTeam */ = {
+			isa = PBXGroup;
+			children = (
+				BF7DB82B296DB3FF005D187F /* ContestCheckTeam.storyboard */,
+				BF7DB82D296DB474005D187F /* ContestCheckTeamViewController.swift */,
+			);
+			path = ContestCheckTeam;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF43631C296C535A00AA20FF /* LaunchScreen.storyboard in Resources */,
+				BF7DB82C296DB3FF005D187F /* ContestCheckTeam.storyboard in Resources */,
 				BFDDB808296C7B6F00CEE0A5 /* MainContestTableViewCell.xib in Resources */,
 				BFDDB80A296C7D2900CEE0A5 /* MainContestCollectionViewCell.xib in Resources */,
 				BF436319296C535A00AA20FF /* Assets.xcassets in Resources */,
@@ -191,6 +206,7 @@
 				BF0676AA296C7AF4004D1186 /* MainContestCollectionViewCell.swift in Sources */,
 				BF436310296C535800AA20FF /* AppDelegate.swift in Sources */,
 				BF436312296C535800AA20FF /* SceneDelegate.swift in Sources */,
+				BF7DB82E296DB474005D187F /* ContestCheckTeamViewController.swift in Sources */,
 				BF436326296C6B3500AA20FF /* MainContestTableViewCell.swift in Sources */,
 				BF436324296C6A1900AA20FF /* Model.swift in Sources */,
 			);
