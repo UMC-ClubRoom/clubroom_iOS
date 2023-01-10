@@ -91,8 +91,7 @@
 				BF43631A296C535A00AA20FF /* LaunchScreen.storyboard */,
 				BF43631D296C535A00AA20FF /* Info.plist */,
 				BF0676A8296C7713004D1186 /* Model */,
-				BF436329296C6C6400AA20FF /* MainTableView */,
-				BF0676AB296C7AFB004D1186 /* MainCollectionView */,
+				BF7DB82A296DB024005D187F /* Main */,
 			);
 			path = ClubRoom;
 			sourceTree = "<group>";
@@ -104,6 +103,15 @@
 				BFDDB807296C7B6F00CEE0A5 /* MainContestTableViewCell.xib */,
 			);
 			path = MainTableView;
+			sourceTree = "<group>";
+		};
+		BF7DB82A296DB024005D187F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BF436329296C6C6400AA20FF /* MainTableView */,
+				BF0676AB296C7AFB004D1186 /* MainCollectionView */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
