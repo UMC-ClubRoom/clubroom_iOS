@@ -27,7 +27,7 @@ class MainContestTableViewCell: UITableViewCell {
     func setUpCollectionView() {
         ContestCollectionView.delegate = self
         ContestCollectionView.dataSource = self
-        ContestCollectionView.register(UINib(nibName: "MainContestCollectionTableViewCell", bundle: nil), forCellWithReuseIdentifier: "MainContestCollectionTableViewCell")
+        ContestCollectionView.register(UINib(nibName: "MainContestCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "MainContestCollectionViewCell")
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -49,6 +49,6 @@ extension MainContestTableViewCell: UICollectionViewDelegate, UICollectionViewDa
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt: IndexPath) -> CGSize {
-        return CGSize(width: 180, height: 246)
+        return CGSize(width: 160, height: 240)
     }
 }
