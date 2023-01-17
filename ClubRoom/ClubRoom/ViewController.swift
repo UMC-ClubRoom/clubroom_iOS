@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ClubRoom
 //
-//  Created by 고하영 on 2023/01/09.
+//  Created by 고하영 on 2023/01/09. test
 //
 
 import UIKit
