@@ -1,17 +1,16 @@
 //
 //  ViewController.swift
-//  get_group
+//  gongmo_explain
 //
-//  Created by 방지원 on 2023/01/16.
+//  Created by 방지원 on 2023/01/17.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
     }
 

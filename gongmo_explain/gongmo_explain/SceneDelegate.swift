@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  get_group
+//  gongmo_explain
 //
-//  Created by 방지원 on 2023/01/16.
+//  Created by 방지원 on 2023/01/17.
 //
 
 import UIKit
