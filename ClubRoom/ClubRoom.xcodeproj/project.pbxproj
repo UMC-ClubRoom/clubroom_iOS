@@ -86,7 +86,10 @@
 				BF43630F296C535800AA20FF /* AppDelegate.swift */,
 				BF436311296C535800AA20FF /* SceneDelegate.swift */,
 				BF436318296C535A00AA20FF /* Assets.xcassets */,
+				BF436313296C535800AA20FF /* ViewController.swift */,
+				BF436315296C535800AA20FF /* Main.storyboard */,
 				BF43631A296C535A00AA20FF /* LaunchScreen.storyboard */,
+				BF43631D296C535A00AA20FF /* Info.plist */,
 				BFBF69D529766C1200084582 /* hayeong */,
 				BF9F31AE29766C5600AAACB0 /* jiwon */,
 			);
@@ -105,8 +108,6 @@
 		BF7DB82A296DB024005D187F /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				BF436313296C535800AA20FF /* ViewController.swift */,
-				BF436315296C535800AA20FF /* Main.storyboard */,
 				BF436329296C6C6400AA20FF /* MainTableView */,
 				BF0676AB296C7AFB004D1186 /* MainCollectionView */,
 			);
@@ -123,7 +124,6 @@
 		BFBF69D529766C1200084582 /* hayeong */ = {
 			isa = PBXGroup;
 			children = (
-				BF43631D296C535A00AA20FF /* Info.plist */,
 				BF0676A8296C7713004D1186 /* Model */,
 				BF7DB82A296DB024005D187F /* Main */,
 			);
