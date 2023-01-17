@@ -8,6 +8,8 @@
 import UIKit
 
 class ContestCheckTeamViewController: UIViewController {
+    
+    static var identifier = "ContestCheckTeamViewControlller"
 
     override func viewDidLoad() {
         super.viewDidLoad()
