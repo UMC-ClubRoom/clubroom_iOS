@@ -90,8 +90,8 @@
 				BF436318296C535A00AA20FF /* Assets.xcassets */,
 				BF43631A296C535A00AA20FF /* LaunchScreen.storyboard */,
 				BF43631D296C535A00AA20FF /* Info.plist */,
-				BF0676A8296C7713004D1186 /* Model */,
-				BF7DB82A296DB024005D187F /* Main */,
+				BF9F31AF2976717400AAACB0 /* hayeong */,
+				BF9F31B02976718200AAACB0 /* banxzxx */,
 			);
 			path = ClubRoom;
 			sourceTree = "<group>";
@@ -112,6 +112,22 @@
 				BF0676AB296C7AFB004D1186 /* MainCollectionView */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		BF9F31AF2976717400AAACB0 /* hayeong */ = {
+			isa = PBXGroup;
+			children = (
+				BF0676A8296C7713004D1186 /* Model */,
+				BF7DB82A296DB024005D187F /* Main */,
+			);
+			path = hayeong;
+			sourceTree = "<group>";
+		};
+		BF9F31B02976718200AAACB0 /* banxzxx */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = banxzxx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
