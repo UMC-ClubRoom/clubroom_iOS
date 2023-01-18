@@ -17,3 +17,4 @@ struct Contest {
         self.period = period
     }
 }
+

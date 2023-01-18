@@ -12,9 +12,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var ContestTableView: UITableView!
     @IBOutlet weak var universityUIView: UIView!
     
-    @IBOutlet weak var contestView: UIView!
-    @IBOutlet weak var studyView: UIView!
-    
     var contests = [Contest]()
     
     override func viewDidLoad() {
@@ -28,8 +25,6 @@ class ViewController: UIViewController {
         universityUIView.layer.borderWidth = 1
         universityUIView.layer.cornerRadius = 15
         universityUIView.layer.borderColor = CGColor.init(red: 112/255, green: 255/255, blue: 178/255, alpha: 1.0)
-        contestView.layer.cornerRadius = 15
-        studyView.layer.cornerRadius = 15
     }
     
     func setUpTableView() {
@@ -43,7 +38,12 @@ class ViewController: UIViewController {
         ContestTableView.register(UINib(nibName: "MainContestTableViewCell", bundle: nil), forCellReuseIdentifier: "MainContestTableViewCell")
         ContestTableView.separatorStyle = .none //cell 구분선 없애기
     }
-
+    
+    @IBAction func mainToContest(_ sender: Any) {
+        let pushVC = self.storyboard?.instantiateViewController(withIdentifier: "ContestMainViewController")
+        self.navigationController?.pushViewController(pushVC!, animated: true)
+    }
+    
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
@@ -62,3 +62,4 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
 }
+

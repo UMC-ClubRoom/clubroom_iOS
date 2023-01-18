@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ContestTagCollectionViewCell" id="OeX-iG-nYK" customClass="ContestTagCollectionViewCell" customModule="ClubRoom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="311" height="188"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="3rW-j6-rhx">
+                <rect key="frame" x="0.0" y="0.0" width="311" height="188"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bLb-g6-xXl">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="83"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="field" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIZ-Sf-w3f">
+                                <rect key="frame" x="66" y="31" width="34" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" secondItem="MIZ-Sf-w3f" secondAttribute="height" multiplier="6.4" id="3eg-WC-fFk"/>
+                            <constraint firstItem="MIZ-Sf-w3f" firstAttribute="centerY" secondItem="bLb-g6-xXl" secondAttribute="centerY" id="DT5-Ok-tnm"/>
+                            <constraint firstAttribute="width" secondItem="MIZ-Sf-w3f" secondAttribute="width" multiplier="7.05882" id="nZ4-ON-Kwx"/>
+                            <constraint firstItem="MIZ-Sf-w3f" firstAttribute="centerX" secondItem="bLb-g6-xXl" secondAttribute="centerX" id="xX1-x9-ZbX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="bLb-g6-xXl" firstAttribute="top" secondItem="3rW-j6-rhx" secondAttribute="top" id="6v8-XL-Y4r"/>
+                    <constraint firstItem="bLb-g6-xXl" firstAttribute="leading" secondItem="3rW-j6-rhx" secondAttribute="leading" id="ePU-ID-x0H"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="311" height="188"/>
+            <connections>
+                <outlet property="fieldLabel" destination="MIZ-Sf-w3f" id="uau-zb-4if"/>
+                <outlet property="fieldView" destination="bLb-g6-xXl" id="Dw9-dU-anb"/>
+            </connections>
+            <point key="canvasLocation" x="127.48091603053435" y="38.028169014084511"/>
+        </collectionViewCell>
+    </objects>
+</document>
