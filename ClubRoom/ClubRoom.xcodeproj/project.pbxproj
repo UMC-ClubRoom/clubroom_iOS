@@ -16,14 +16,14 @@
 		BF43631C296C535A00AA20FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF43631A296C535A00AA20FF /* LaunchScreen.storyboard */; };
 		BF436324296C6A1900AA20FF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF436323296C6A1900AA20FF /* Model.swift */; };
 		BF436326296C6B3500AA20FF /* MainContestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF436325296C6B3500AA20FF /* MainContestTableViewCell.swift */; };
+		BF595F9D29784F84002B613A /* ContestDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF595F9C29784F84002B613A /* ContestDetail.swift */; };
 		BF9F31B2297671EB00AAACB0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9F31B1297671EB00AAACB0 /* Storyboard.storyboard */; };
 		BF9F31B4297671FE00AAACB0 /* StoryBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F31B3297671FE00AAACB0 /* StoryBoardViewController.swift */; };
 		BFADBE1129782EB50087FCC7 /* ContestMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFADBE1029782EB50087FCC7 /* ContestMainViewController.swift */; };
-		BFCE93B4297838C800F9C31B /* ContestTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE93B3297838C800F9C31B /* ContestTag.swift */; };
-		BFCE93B629783AF900F9C31B /* ContestTagTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCE93B529783AF900F9C31B /* ContestTagTableViewCell.xib */; };
-		BFCE93B829783B3000F9C31B /* ContestTagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE93B729783B3000F9C31B /* ContestTagTableViewCell.swift */; };
-		BFCE93BC29783CCE00F9C31B /* ContestTagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCE93BB29783CCE00F9C31B /* ContestTagCollectionViewCell.xib */; };
-		BFCE93BE29783CE600F9C31B /* ContestTagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE93BD29783CE600F9C31B /* ContestTagCollectionViewCell.swift */; };
+		BFCE93C129784AD200F9C31B /* ContestDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCE93C029784AD200F9C31B /* ContestDetailTableViewCell.xib */; };
+		BFCE93C329784AEF00F9C31B /* ContestDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE93C229784AEF00F9C31B /* ContestDetailTableViewCell.swift */; };
+		BFCE93C529784B0200F9C31B /* ContestDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCE93C429784B0200F9C31B /* ContestDetailCollectionViewCell.xib */; };
+		BFCE93C729784B1C00F9C31B /* ContestDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE93C629784B1C00F9C31B /* ContestDetailCollectionViewCell.swift */; };
 		BFDDB808296C7B6F00CEE0A5 /* MainContestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDDB807296C7B6F00CEE0A5 /* MainContestTableViewCell.xib */; };
 		BFDDB80A296C7D2900CEE0A5 /* MainContestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDDB809296C7D2900CEE0A5 /* MainContestCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -40,14 +40,14 @@
 		BF43631D296C535A00AA20FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF436323296C6A1900AA20FF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BF436325296C6B3500AA20FF /* MainContestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContestTableViewCell.swift; sourceTree = "<group>"; };
+		BF595F9C29784F84002B613A /* ContestDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestDetail.swift; sourceTree = "<group>"; };
 		BF9F31B1297671EB00AAACB0 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		BF9F31B3297671FE00AAACB0 /* StoryBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardViewController.swift; sourceTree = "<group>"; };
 		BFADBE1029782EB50087FCC7 /* ContestMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestMainViewController.swift; sourceTree = "<group>"; };
-		BFCE93B3297838C800F9C31B /* ContestTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestTag.swift; sourceTree = "<group>"; };
-		BFCE93B529783AF900F9C31B /* ContestTagTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContestTagTableViewCell.xib; sourceTree = "<group>"; };
-		BFCE93B729783B3000F9C31B /* ContestTagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestTagTableViewCell.swift; sourceTree = "<group>"; };
-		BFCE93BB29783CCE00F9C31B /* ContestTagCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContestTagCollectionViewCell.xib; sourceTree = "<group>"; };
-		BFCE93BD29783CE600F9C31B /* ContestTagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestTagCollectionViewCell.swift; sourceTree = "<group>"; };
+		BFCE93C029784AD200F9C31B /* ContestDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContestDetailTableViewCell.xib; sourceTree = "<group>"; };
+		BFCE93C229784AEF00F9C31B /* ContestDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestDetailTableViewCell.swift; sourceTree = "<group>"; };
+		BFCE93C429784B0200F9C31B /* ContestDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContestDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		BFCE93C629784B1C00F9C31B /* ContestDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		BFDDB807296C7B6F00CEE0A5 /* MainContestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainContestTableViewCell.xib; sourceTree = "<group>"; };
 		BFDDB809296C7D2900CEE0A5 /* MainContestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainContestCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				BF436323296C6A1900AA20FF /* Model.swift */,
-				BFCE93B3297838C800F9C31B /* ContestTag.swift */,
+				BF595F9C29784F84002B613A /* ContestDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				BFADBE1029782EB50087FCC7 /* ContestMainViewController.swift */,
-				BFCE93B929783B3A00F9C31B /* Tag */,
+				BFCE93CA29784B4800F9C31B /* ContestDetail */,
 			);
 			path = Contest;
 			sourceTree = "<group>";
@@ -159,31 +159,31 @@
 			path = jiwonn;
 			sourceTree = "<group>";
 		};
-		BFCE93B929783B3A00F9C31B /* Tag */ = {
+		BFCE93C829784B2800F9C31B /* ContestDetailTableView */ = {
 			isa = PBXGroup;
 			children = (
-				BFCE93BA29783CAB00F9C31B /* TagTableView */,
-				BFCE93BF29783CEB00F9C31B /* TagCollectionView */,
+				BFCE93C029784AD200F9C31B /* ContestDetailTableViewCell.xib */,
+				BFCE93C229784AEF00F9C31B /* ContestDetailTableViewCell.swift */,
 			);
-			path = Tag;
+			path = ContestDetailTableView;
 			sourceTree = "<group>";
 		};
-		BFCE93BA29783CAB00F9C31B /* TagTableView */ = {
+		BFCE93C929784B3300F9C31B /* ContestDetailCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				BFCE93B729783B3000F9C31B /* ContestTagTableViewCell.swift */,
-				BFCE93B529783AF900F9C31B /* ContestTagTableViewCell.xib */,
+				BFCE93C429784B0200F9C31B /* ContestDetailCollectionViewCell.xib */,
+				BFCE93C629784B1C00F9C31B /* ContestDetailCollectionViewCell.swift */,
 			);
-			path = TagTableView;
+			path = ContestDetailCollectionView;
 			sourceTree = "<group>";
 		};
-		BFCE93BF29783CEB00F9C31B /* TagCollectionView */ = {
+		BFCE93CA29784B4800F9C31B /* ContestDetail */ = {
 			isa = PBXGroup;
 			children = (
-				BFCE93BB29783CCE00F9C31B /* ContestTagCollectionViewCell.xib */,
-				BFCE93BD29783CE600F9C31B /* ContestTagCollectionViewCell.swift */,
+				BFCE93C829784B2800F9C31B /* ContestDetailTableView */,
+				BFCE93C929784B3300F9C31B /* ContestDetailCollectionView */,
 			);
-			path = TagCollectionView;
+			path = ContestDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,13 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCE93BC29783CCE00F9C31B /* ContestTagCollectionViewCell.xib in Resources */,
 				BF43631C296C535A00AA20FF /* LaunchScreen.storyboard in Resources */,
-				BFCE93B629783AF900F9C31B /* ContestTagTableViewCell.xib in Resources */,
 				BFDDB808296C7B6F00CEE0A5 /* MainContestTableViewCell.xib in Resources */,
+				BFCE93C129784AD200F9C31B /* ContestDetailTableViewCell.xib in Resources */,
 				BFDDB80A296C7D2900CEE0A5 /* MainContestCollectionViewCell.xib in Resources */,
 				BF436319296C535A00AA20FF /* Assets.xcassets in Resources */,
 				BF436317296C535800AA20FF /* Main.storyboard in Resources */,
+				BFCE93C529784B0200F9C31B /* ContestDetailCollectionViewCell.xib in Resources */,
 				BF9F31B2297671EB00AAACB0 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,14 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCE93BE29783CE600F9C31B /* ContestTagCollectionViewCell.swift in Sources */,
 				BF436314296C535800AA20FF /* ViewController.swift in Sources */,
-				BFCE93B829783B3000F9C31B /* ContestTagTableViewCell.swift in Sources */,
 				BF0676AA296C7AF4004D1186 /* MainContestCollectionViewCell.swift in Sources */,
-				BFCE93B4297838C800F9C31B /* ContestTag.swift in Sources */,
 				BF436310296C535800AA20FF /* AppDelegate.swift in Sources */,
+				BFCE93C329784AEF00F9C31B /* ContestDetailTableViewCell.swift in Sources */,
 				BF436312296C535800AA20FF /* SceneDelegate.swift in Sources */,
+				BF595F9D29784F84002B613A /* ContestDetail.swift in Sources */,
 				BF9F31B4297671FE00AAACB0 /* StoryBoardViewController.swift in Sources */,
+				BFCE93C729784B1C00F9C31B /* ContestDetailCollectionViewCell.swift in Sources */,
 				BF436326296C6B3500AA20FF /* MainContestTableViewCell.swift in Sources */,
 				BFADBE1129782EB50087FCC7 /* ContestMainViewController.swift in Sources */,
 				BF436324296C6A1900AA20FF /* Model.swift in Sources */,

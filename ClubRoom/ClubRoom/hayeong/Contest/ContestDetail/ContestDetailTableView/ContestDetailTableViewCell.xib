@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContestDetailTableViewCell" rowHeight="985" id="8VV-7o-oSV" customClass="ContestDetailTableViewCell" customModule="ClubRoom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="400"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8VV-7o-oSV" id="s0J-Ua-yqI">
+                <rect key="frame" x="0.0" y="0.0" width="240" height="400"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="MfZ-6H-VMv">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="400"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MTK-BC-9fT">
+                            <size key="itemSize" width="240" height="400"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="MfZ-6H-VMv" secondAttribute="bottom" id="BED-oa-6o8"/>
+                    <constraint firstAttribute="trailing" secondItem="MfZ-6H-VMv" secondAttribute="trailing" id="I3i-05-ZG0"/>
+                    <constraint firstItem="MfZ-6H-VMv" firstAttribute="top" secondItem="s0J-Ua-yqI" secondAttribute="top" id="iCm-Y5-tpt"/>
+                    <constraint firstItem="MfZ-6H-VMv" firstAttribute="leading" secondItem="s0J-Ua-yqI" secondAttribute="leading" id="slF-R9-ccz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="CollectionView" destination="MfZ-6H-VMv" id="iLu-1q-GyR"/>
+            </connections>
+            <point key="canvasLocation" x="-457.25190839694653" y="83.450704225352112"/>
+        </tableViewCell>
+    </objects>
+</document>
