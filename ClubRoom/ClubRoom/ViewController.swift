@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var contestView: UIView!
     @IBOutlet weak var studyView: UIView!
-    @IBOutlet weak var projectView: UIView!
     
     var contests = [Contest]()
     
@@ -31,7 +30,6 @@ class ViewController: UIViewController {
         universityUIView.layer.borderColor = CGColor.init(red: 112/255, green: 255/255, blue: 178/255, alpha: 1.0)
         contestView.layer.cornerRadius = 15
         studyView.layer.cornerRadius = 15
-        projectView.layer.cornerRadius = 15
     }
     
     func setUpTableView() {

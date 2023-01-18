@@ -70,10 +70,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ebz-Ax-Nsg">
-                                <rect key="frame" x="20" y="711" width="100" height="100"/>
+                                <rect key="frame" x="20" y="711" width="160" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="260" verticalHuggingPriority="260" text="공모전" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBz-L3-3dx">
-                                        <rect key="frame" x="27.666666666666664" y="39.666666666666629" width="44.999999999999993" height="21"/>
+                                        <rect key="frame" x="57.666666666666671" y="39.666666666666629" width="45" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -81,17 +81,17 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.58476096389999999" green="0.97579890489999999" blue="0.71369081739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="K0s-G7-cpJ"/>
                                     <constraint firstItem="DBz-L3-3dx" firstAttribute="centerY" secondItem="Ebz-Ax-Nsg" secondAttribute="centerY" id="LFe-2N-fxI"/>
                                     <constraint firstAttribute="height" constant="100" id="lHd-hA-ojc"/>
                                     <constraint firstItem="DBz-L3-3dx" firstAttribute="centerX" secondItem="Ebz-Ax-Nsg" secondAttribute="centerX" id="oSq-Qo-RvC"/>
-                                    <constraint firstAttribute="width" constant="100" id="okx-MR-ed0"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" horizontalHuggingPriority="260" verticalHuggingPriority="260" translatesAutoresizingMaskIntoConstraints="NO" id="qhl-7e-dL9">
-                                <rect key="frame" x="273" y="711" width="100" height="100"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQl-H2-qZG">
+                                <rect key="frame" x="213" y="711" width="160" height="100"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="프로젝트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yne-gA-SvM">
-                                        <rect key="frame" x="20.666666666666686" y="39.666666666666629" width="59" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="260" verticalHuggingPriority="260" text="스터디" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWu-iv-V7r">
+                                        <rect key="frame" x="57.666666666666686" y="39.666666666666629" width="45" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -99,28 +99,10 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.58476096389999999" green="0.97579890489999999" blue="0.71369081739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstItem="Yne-gA-SvM" firstAttribute="centerX" secondItem="qhl-7e-dL9" secondAttribute="centerX" id="GvD-p0-dnx"/>
-                                    <constraint firstAttribute="width" constant="100" id="UH0-ZG-zgW"/>
-                                    <constraint firstAttribute="height" constant="100" id="YIL-qj-6UA"/>
-                                    <constraint firstItem="Yne-gA-SvM" firstAttribute="centerY" secondItem="qhl-7e-dL9" secondAttribute="centerY" id="dJ4-as-deE"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" horizontalHuggingPriority="260" verticalHuggingPriority="260" translatesAutoresizingMaskIntoConstraints="NO" id="N8Q-Df-2xc">
-                                <rect key="frame" x="146.66666666666666" y="711" width="100" height="100"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="스터디" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBd-Hc-ItI">
-                                        <rect key="frame" x="27.333333333333343" y="39.666666666666629" width="45" height="21"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.58476096389999999" green="0.97579890489999999" blue="0.71369081739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstItem="cBd-Hc-ItI" firstAttribute="centerX" secondItem="N8Q-Df-2xc" secondAttribute="centerX" id="32r-fg-qW2"/>
-                                    <constraint firstAttribute="width" constant="100" id="Id1-iy-Je2"/>
-                                    <constraint firstAttribute="height" constant="100" id="JKl-e2-vif"/>
-                                    <constraint firstItem="cBd-Hc-ItI" firstAttribute="centerY" secondItem="N8Q-Df-2xc" secondAttribute="centerY" id="NER-aw-C8t"/>
+                                    <constraint firstAttribute="width" constant="160" id="BL0-ov-DtQ"/>
+                                    <constraint firstItem="EWu-iv-V7r" firstAttribute="centerX" secondItem="aQl-H2-qZG" secondAttribute="centerX" id="Kjx-KH-kbq"/>
+                                    <constraint firstAttribute="height" constant="100" id="NPk-4b-Htz"/>
+                                    <constraint firstItem="EWu-iv-V7r" firstAttribute="centerY" secondItem="aQl-H2-qZG" secondAttribute="centerY" id="q0Y-qn-vBe"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -131,18 +113,16 @@
                             <constraint firstItem="Ebz-Ax-Nsg" firstAttribute="leading" secondItem="jBh-bo-OP7" secondAttribute="leading" id="2fg-qz-1Ua"/>
                             <constraint firstItem="4WE-SD-HWP" firstAttribute="top" secondItem="oWt-Ap-YqW" secondAttribute="bottom" constant="10" id="5B6-3i-EUf"/>
                             <constraint firstItem="32b-I6-kor" firstAttribute="leading" secondItem="E7r-2K-GLE" secondAttribute="trailing" constant="10" id="C8z-9U-O5e"/>
-                            <constraint firstItem="N8Q-Df-2xc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I7m-ty-Ecj"/>
                             <constraint firstItem="jBh-bo-OP7" firstAttribute="leading" secondItem="oWt-Ap-YqW" secondAttribute="leading" id="JSQ-pH-j5i"/>
                             <constraint firstItem="ufN-ZK-rqP" firstAttribute="leading" secondItem="E7r-2K-GLE" secondAttribute="leading" id="NAT-Yb-d3T"/>
                             <constraint firstItem="E7r-2K-GLE" firstAttribute="top" secondItem="4WE-SD-HWP" secondAttribute="bottom" constant="30" id="XAm-cd-pWt"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qhl-7e-dL9" secondAttribute="trailing" constant="20" id="YK9-eR-Cvt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aQl-H2-qZG" secondAttribute="trailing" constant="20" id="Xem-st-QdD"/>
                             <constraint firstItem="jBh-bo-OP7" firstAttribute="top" secondItem="ufN-ZK-rqP" secondAttribute="bottom" constant="14" id="a7h-aC-rrn"/>
-                            <constraint firstItem="N8Q-Df-2xc" firstAttribute="top" secondItem="Ebz-Ax-Nsg" secondAttribute="top" id="a8J-T0-9HV"/>
                             <constraint firstItem="32b-I6-kor" firstAttribute="top" secondItem="aWd-FA-kLU" secondAttribute="top" id="eQ7-BM-zAY"/>
                             <constraint firstItem="4WE-SD-HWP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ejS-0X-eY7"/>
                             <constraint firstItem="Ebz-Ax-Nsg" firstAttribute="top" secondItem="jBh-bo-OP7" secondAttribute="bottom" constant="16" id="lWS-Hi-C3q"/>
-                            <constraint firstItem="qhl-7e-dL9" firstAttribute="top" secondItem="N8Q-Df-2xc" secondAttribute="top" id="mY9-ZF-Lyb"/>
                             <constraint firstItem="oWt-Ap-YqW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="oGe-67-l8j"/>
+                            <constraint firstItem="aQl-H2-qZG" firstAttribute="top" secondItem="Ebz-Ax-Nsg" secondAttribute="top" id="ubM-Sf-Cu0"/>
                             <constraint firstItem="ufN-ZK-rqP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wJa-Y3-bzn"/>
                             <constraint firstItem="E7r-2K-GLE" firstAttribute="leading" secondItem="oWt-Ap-YqW" secondAttribute="leading" id="xSq-BB-Vxd"/>
                             <constraint firstItem="oWt-Ap-YqW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yHV-6h-CJc"/>
@@ -152,8 +132,7 @@
                     <connections>
                         <outlet property="ContestTableView" destination="ufN-ZK-rqP" id="JnF-N5-hWQ"/>
                         <outlet property="contestView" destination="Ebz-Ax-Nsg" id="3QF-3f-dBI"/>
-                        <outlet property="projectView" destination="qhl-7e-dL9" id="m2R-iy-IT4"/>
-                        <outlet property="studyView" destination="N8Q-Df-2xc" id="1Bb-Ur-2pK"/>
+                        <outlet property="studyView" destination="aQl-H2-qZG" id="u0w-yl-gpf"/>
                         <outlet property="universityUIView" destination="E7r-2K-GLE" id="U7i-a5-tp1"/>
                     </connections>
                 </viewController>
