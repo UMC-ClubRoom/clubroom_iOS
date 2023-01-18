@@ -33,10 +33,9 @@
         <!--홈-->
         <scene sceneID="0F5-n0-uZS">
             <objects>
-                <navigationController id="UWS-uG-McV" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="UWS-uG-McV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="홈" id="xUM-9J-GWb"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="J36-73-6kJ">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -131,11 +130,11 @@
             <objects>
                 <viewController storyboardIdentifier="ViewController" id="g9x-Pa-lgS" customClass="ViewController" customModule="ClubRoom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u07-aS-59v">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGC-tm-yAf">
-                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="858"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TeJ-7J-nfF">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="800"/>
@@ -278,7 +277,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SbC-SK-R4G"/>
-                    <size key="freeformSize" width="393" height="852"/>
+                    <size key="freeformSize" width="393" height="1000"/>
                     <connections>
                         <outlet property="ContestTableView" destination="LjR-Bh-ddP" id="Dc1-Ul-w6f"/>
                         <outlet property="contestView" destination="424-3i-AW2" id="bOU-KH-REs"/>
