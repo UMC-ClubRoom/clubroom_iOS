@@ -19,6 +19,7 @@ class ContestDetailCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        initBorder()
     }
     
     public func configure(with contestDetail:ContestDetail){
@@ -27,11 +28,11 @@ class ContestDetailCollectionViewCell: UICollectionViewCell {
         self.periodLabel.text = contestDetail.period
         self.hostCampanyLabel.text = contestDetail.hostCompany
         self.prizeLabel.text = contestDetail.prize
-        self.ddayBtn.setTitle("D - " + String(contestDetail.dday), for: .normal)
-        self.ddayBtn.titleLabel?.font = UIFont.systemFont(ofSize: 10)
+        self.ddayBtn.subtitleLabel?.text = "D - " + String(contestDetail.dday)
+        
     }
     
     private func initBorder(){
-        totalView.layer.cornerRadius = 10
+        totalView.layer.cornerRadius = 15
     }
 }
