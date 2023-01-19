@@ -50,10 +50,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ST-HI-vI5">
-                                <rect key="frame" x="161.33333333333334" y="250" width="48.666666666666657" height="26"/>
+                                <rect key="frame" x="156.33333333333334" y="249.99999999999997" width="53.666666666666657" height="29.666666666666657"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Dday" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="10"/>
+                                <buttonConfiguration key="configuration" style="filled" title="" subtitle="dday" cornerStyle="capsule">
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.58476096389999999" green="0.97579890489999999" blue="0.71369081739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -89,6 +88,7 @@
             </collectionViewCellContentView>
             <size key="customSize" width="220" height="400"/>
             <connections>
+                <outlet property="contentView" destination="kXM-In-r8k" id="QQm-rK-qeh"/>
                 <outlet property="ddayBtn" destination="0ST-HI-vI5" id="nHf-4K-k3z"/>
                 <outlet property="hostCampanyLabel" destination="5jG-9m-pb3" id="Y6y-2D-1ze"/>
                 <outlet property="imageView" destination="PVU-i7-YX8" id="zLK-dl-eTv"/>
